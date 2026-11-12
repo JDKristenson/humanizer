@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 850" role="img" aria-labelledby="title desc">
+<title id="title">Humanizer provenance and human review boundary</title>
+<desc id="desc">Wikipedia-derived material flows through upstream and the pinned fork to a host editor. Human factual and rights review is required before accepting or publishing a rewrite.</desc>
+<rect width="960" height="850" fill="white"/>
+<text x="60" y="46.0" font-family="Arial, sans-serif" font-size="26" fill="#1f2937">Humanizer / provenance and review boundary</text>
+<rect x="60" y="80" width="840" height="80" rx="10" fill="#f3f4f6" stroke="#1f2937" stroke-width="2"/>
+<text x="80" y="110.0" font-family="Arial, sans-serif" font-size="18" fill="#1f2937">Wikipedia contributors / WikiProject AI Cleanup</text>
+<text x="80" y="132.5" font-family="Arial, sans-serif" font-size="18" fill="#1f2937">Derived text: revision and passage-level rights remain unresolved.</text>
+<rect x="60" y="190" width="840" height="80" rx="10" fill="#f3f4f6" stroke="#1f2937" stroke-width="2"/>
+<text x="80" y="220.0" font-family="Arial, sans-serif" font-size="18" fill="#1f2937">blader/humanizer / upstream Markdown skill</text>
+<text x="80" y="242.5" font-family="Arial, sans-serif" font-size="18" fill="#1f2937">Recorded human, community, Claude Opus 4.5, and Warp credits retained.</text>
+<rect x="60" y="300" width="840" height="80" rx="10" fill="#f3f4f6" stroke="#1f2937" stroke-width="2"/>
+<text x="80" y="330.0" font-family="Arial, sans-serif" font-size="18" fill="#1f2937">JDKristenson/humanizer / inherited baseline</text>
+<text x="80" y="352.5" font-family="Arial, sans-serif" font-size="18" fill="#1f2937">3b117912054aab527533523a173999df0bce862f / January 19, 2026 UTC</text>
+<rect x="60" y="410" width="840" height="80" rx="10" fill="#f3f4f6" stroke="#1f2937" stroke-width="2"/>
+<text x="80" y="440.0" font-family="Arial, sans-serif" font-size="18" fill="#1f2937">Claude Code host / reviewed local SKILL.md</text>
+<text x="80" y="462.5" font-family="Arial, sans-serif" font-size="18" fill="#1f2937">Host governs tools and provider data handling; prompt is not a sandbox.</text>
+<rect x="60" y="520" width="840" height="80" rx="10" fill="#f3f4f6" stroke="#1f2937" stroke-width="2"/>
+<text x="80" y="550.0" font-family="Arial, sans-serif" font-size="18" fill="#1f2937">HUMAN REVIEW / required before acceptance</text>
+<text x="80" y="572.5" font-family="Arial, sans-serif" font-size="18" fill="#1f2937">Check meaning, facts, citations, uncertainty, attribution, and rights.</text>
+<rect x="60" y="630" width="840" height="80" rx="10" fill="#f3f4f6" stroke="#1f2937" stroke-width="2"/>
+<text x="80" y="660.0" font-family="Arial, sans-serif" font-size="18" fill="#1f2937">Accept or publish only after review</text>
+<text x="80" y="682.5" font-family="Arial, sans-serif" font-size="18" fill="#1f2937">Style edits do not establish authorship or verify replacement facts.</text>
+<path d="M480 163 v24 m-6 -8 l6 8 l6 -8" fill="none" stroke="#1f2937" stroke-width="2"/>
+<path d="M480 273 v24 m-6 -8 l6 8 l6 -8" fill="none" stroke="#1f2937" stroke-width="2"/>
+<path d="M480 383 v24 m-6 -8 l6 8 l6 -8" fill="none" stroke="#1f2937" stroke-width="2"/>
+<path d="M480 493 v24 m-6 -8 l6 8 l6 -8" fill="none" stroke="#1f2937" stroke-width="2"/>
+<path d="M480 603 v24 m-6 -8 l6 8 l6 -8" fill="none" stroke="#1f2937" stroke-width="2"/>
+<text x="60" y="762.0" font-family="Arial, sans-serif" font-size="17" fill="#1f2937">Conceptual source/workflow map, not execution evidence.</text>
+<text x="60" y="783.25" font-family="Arial, sans-serif" font-size="17" fill="#1f2937">Documentation-only additions leave the inherited skill unchanged.</text>
+<text x="60" y="804.5" font-family="Arial, sans-serif" font-size="17" fill="#1f2937">Edit the .excalidraw source; regenerate SVG with python3 docs/render-workflow.py.</text>
+</svg>
