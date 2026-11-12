@@ -2,7 +2,37 @@
 
 A Claude Code skill that removes signs of AI-generated writing from text, making it sound more natural and human.
 
+## Fork snapshot and provenance
+
+This repository retains an upstream Humanizer Markdown skill, not a standalone
+application or AI-authorship detector. The baseline for this documentation is
+[`3b117912054aab527533523a173999df0bce862f`](https://github.com/JDKristenson/humanizer/tree/3b117912054aab527533523a173999df0bce862f)
+(committed January 19, 2026 UTC), also present as the
+[same upstream commit](https://github.com/blader/humanizer/commit/3b117912054aab527533523a173999df0bce862f).
+The default branch was rechecked at that SHA before this documentation change.
+There were no fork-specific commits at that baseline; these additions document
+the snapshot without changing `SKILL.md`. This is not a claim about anyone's
+contributions outside this bounded history or about current upstream parity.
+
+The seven reachable baseline commits record authors `blader`, Siqi Chen, and
+Zishan Ashraf, including the merged `abracadabra50` community contribution.
+Co-author trailers credit Claude Opus 4.5 on the first three commits and Warp
+on the installation and quote fixes. Preserve these human/community/AI credits,
+Wikipedia contributors, WikiProject AI Cleanup, and the existing source links.
+See the [pinned history](https://github.com/JDKristenson/humanizer/commits/3b117912054aab527533523a173999df0bce862f/)
+and the [source/workflow map](docs/provenance-workflow.svg)
+([editable Excalidraw source](docs/provenance-workflow.excalidraw)).
+
 ## Installation
+
+**Choose the source deliberately.** The inherited clone command below installs
+upstream's current default branch, not this pinned snapshot. To install from an
+already reviewed checkout of this repository, use the copy-only instructions
+below, run from that checkout's root. Check `git rev-parse HEAD` and review
+`SKILL.md` first. Both paths require Claude Code; neither is an application build.
+Do not overwrite an existing skill installation without reviewing/backing it up.
+Setup and invocation examples are instructions for users, not evidence of an
+installation or runtime test performed by this documentation change.
 
 ### Recommended (clone directly into Claude Code skills directory)
 
@@ -35,6 +65,25 @@ Or ask Claude to humanize text directly:
 ```
 Please humanize this text: [your text]
 ```
+
+## Permissions, privacy, and factual review
+
+`SKILL.md` requests Read, Write, Edit, Grep, Glob, and AskUserQuestion tools.
+Actual availability and approval depend on the host's configuration; the skill
+is a prompt, not a sandbox or an independent permission boundary. Review file
+access and proposed edits, and use non-sensitive sample text first. Text supplied
+to the host may be handled by its configured model/provider; check that host's
+data-handling policy before supplying private material.
+
+These are editing heuristics, not proof that a person or model authored text.
+Keep a human factual-review boundary: verify names, dates, quantities, quotations,
+citations, and any newly specific claims against sources before accepting or
+publishing a rewrite. The inherited examples illustrate style changes, not
+verified replacement facts. Preserve meaning, uncertainty, attribution, and rights.
+
+There is no dependency manifest, build system, or automated test suite in this
+snapshot. For a documentation-only review, inspect the diff and run
+`git diff --check`; neither that check nor the diagram validates model behavior.
 
 ## Overview
 
@@ -118,3 +167,21 @@ Based on [Wikipedia's "Signs of AI writing"](https://en.wikipedia.org/wiki/Wikip
 ## License
 
 MIT
+
+### License-status clarification (not a new license grant)
+
+The inherited MIT label above is preserved verbatim. At the documented baseline,
+there is no full MIT license text, copyright notice file, or separate notices
+file. The [Wikipedia-based rewrite commit](https://github.com/JDKristenson/humanizer/commit/b2564d305b77e33ee51ebdc0f26b033a6de997cf)
+records using Wikipedia source content and examples; the exact Wikipedia revision
+and passage-level rights mapping have not been established.
+
+[Wikipedia's reuse policy](https://en.wikipedia.org/wiki/Wikipedia:Copyrights#Re-use_of_text)
+describes attribution, change indication, licensing notices, and CC BY-SA 4.0
+share-alike requirements for adapted text, with qualified additional GFDL
+availability. Separately sourced quotations may have their own terms. Do not
+treat the MIT label as clearance for every inherited passage or as replacing
+third-party rights. Before further reuse, identify the source revision and
+copied/adapted passages, preserve applicable credits/notices/licenses, and clarify
+the scope of any MIT grant with the relevant rights holders. This note does not
+resolve those questions, relicense inherited material, or reproduce more of it.
